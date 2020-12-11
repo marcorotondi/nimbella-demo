@@ -3,6 +3,16 @@
     <title>Ciao</title>
   </head>
   <body>
-    <p>this is a static content</p>
+    <p>Hi I'm on</p>
+    <div id="content"></div>
   </body>
+
+  <script type="text/javascript">
+  	fetch('https://mrcroton-lmed3te9g1s-apigcp.nimbella.io/api/default/first')
+  		.then(response => response.json())
+  		.then(data => {
+  			console.log(data);
+  			document.getElementById('content').innerHTML = data.msg;
+  		})
+  </script>
 </html>

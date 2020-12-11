@@ -1,3 +1,7 @@
 function main(args) { 
-    return { body: 'Hello World By Mrc' }
+    return { 
+    	headers: { 'Content-Type': 'application/json' },
+    	statusCode: 200,
+    	body: { msg: 'Nimbella cloud based Apache OpenWhisk' } 
+    }
 }
