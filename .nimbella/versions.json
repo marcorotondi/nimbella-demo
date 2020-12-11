@@ -1,0 +1,16 @@
+[
+  {
+    "apihost": "https://apigcp.nimbella.io",
+    "namespace": "mrcroton-lmed3te9g1s",
+    "packageVersions": {},
+    "actionVersions": {
+      "first": {
+        "version": "0.0.5",
+        "digest": "fa4b25ba8aa57f3e4be434d2d92cc7570be97968fe9247e3f31ec846213a9f6f"
+      }
+    },
+    "webHashes": {
+      "web\\start.html": "bcec912aeb827ed6b2ec1f5653df882d5a844b5f539f00d17d70b9461dd8758d"
+    }
+  }
+]
